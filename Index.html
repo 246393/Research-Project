@@ -1,82 +1,355 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-   <head>
-       <meta charset="utf-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <title>Heaphones</title>
-       <meta name="description" content="">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <!-- STYLE SHEETS -->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style.css">
-       <!-- JAVASCRIPT -->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   </head>
-   <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Research Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-   </body>
-</html>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<!-- NAVIGATION -->
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Headphones navigation</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Research Project</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Types of Headphones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Fun Facts</a>
-                    </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto me-s-auto mb-2 mb-md-0 text-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#image">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tabs">Types</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slides">Slides</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
 
-    <!-- HERO SECTION-->
-    <div class="px-4 py-5 mb-5 text-center bg-light">
-        <h1 class="display-5 fw-bold">All About Headphones</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Due to the abundance and commonality of headphones, we should all know the origins and types of headphones we use. Today you are here to learn more about your everday item. </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+    <!-- HERO SECTION START -->
+    <div class="hero-section py-5">
+      <main class="container py-5">
+        <div class="p-5 rounded">
+          <h1>Navbar example</h1>
+          <p class="lead">
+            This example is a quick exercise to illustrate how fixed to top
+            navbar works. As you scroll, it will remain fixed to the top of your
+            browser’s viewport.
+          </p>
+          <a class="btn btn-lg btn-dark" href="#" role="button"
+            >View navbar docs &raquo;</a
+          >
+        </div>
+      </main>
+    </div>
+    <!-- HERO SECTION END -->
+
+    <!-- QUICK LINKS START -->
+    <div class="bg-dark text-white py-5 text-center quick-links">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 py-5-xs">
+            <i class="bi bi-building"></i>
+            <p>Lorem Ipsum</p>
+          </div>
+          <div class="col-sm-6 col-md-3 py-5-xs">
+            <i class="bi bi-newspaper"></i>
+            <p>Dolor Sit</p>
+          </div>
+          <div class="col-sm-6 col-md-3 py-5-xs">
+            <i class="bi bi-boombox"></i>
+            <p>Amet Consectetur</p>
+          </div>
+          <div class="col-sm-6 col-md-3 py-5-xs">
+            <i class="bi bi-person"></i>
+            <p>Adipiscing Elit</p>
           </div>
         </div>
+      </div>
     </div>
+    <!-- QUICK LINKS END -->
 
-<!-- THREE COLUMNS !-->
-       <div class="container text-center">
-           <div class="COLUMNS">
-                <div class="col-sm-4 px-5 my-3">
-                    <h1> Types of Headphones</h5>
-                    <img src="img/A-T-Headphones-Type.jpeg">
+    <!-- ONE COLUMN START -->
+    <div class="container py-5" id="about">
+      <div class="row">
+        <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+        <p>
+          Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+          mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+          Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+          dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+          lacinia justo vel eleifend feugiat.
+        </p>
+
+        <p>
+          In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+          ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+          fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+          sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+          mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+          ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+          Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+          a congue urna. Mauris eget lacus quam.
+        </p>
+      </div>
+    </div>
+    <!-- ONE COLUMN END -->
+
+    <!-- 2/3, 1/3 SECTION START -->
+    <div class="bg-aquamarine py-5" id="image">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm-8">
+            <img src="img/apollo.png" class="img-fluid" />
+          </div>
+          <div class="col-sm-4 pt-5">
+            <h2 class="fw-bold">Mauris eget</h2>
+            <p>
+              Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.
+            </p>
+            <p>
+              Sed augue risus, sollicitudin sollicitudin eleifend posuere,
+              congue mattis eros. Proin mollis est dolor, sed pulvinar enim
+              facilisis eget.
+            </p>
+            <button type="button" class="btn btn-lg btn-dark">
+                Button <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2/3, 1/3 SECTION END -->
+
+    <!-- VIDEO SECTION START -->
+    <div class="container py-5 text-center video" id="video">
+      <div class="row py-5">
+        <div class="col pb-5">
+            <h1 class="text-center pb-1 fw-bold pb-5">Embed Video</h1>
+            <iframe
+            width="700"
+            height="394"
+            src="https://www.youtube.com/embed/uqd1SS6m4Dc?controls=0&amp;start=30"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- VIDEO SECTION END -->
+
+    <!-- MAP SECTION START -->
+    <div class="map" id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.874519121867!2d-87.85378768399211!3d42.088737979206066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11e087fc4352f803!2zNDLCsDA1JzE5LjUiTiA4N8KwNTEnMDUuOCJX!5e0!3m2!1sen!2sus!4v1670431854344!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- MAP SECTION END -->
+
+    <!-- SLIDE PRESENTATION START -->
+    <div class="bg-dark text-white py-5 presentation" id="slides">
+      <div class="container">
+        <div class="row">
+          <div class="col-md py-5">
+            <h2 class="fw-bold">Mauris eget</h2>
+            <p>
+              Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.
+            </p>
+            <p>
+              Sed augue risus, sollicitudin sollicitudin eleifend posuere,
+              congue mattis eros. Proin mollis est dolor, sed pulvinar enim
+              facilisis eget.
+            </p>
+            <button type="button" class="btn btn-lg btn-dark btn-unique">
+                Button <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+          <div class="col-md-8 py-5">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQenywRoM6_9PyrgVZ2YPSLgJe1MjioV3rJkxFR5yeuGu1__DHXvLu-2Cc8Te_rJ8u62YRBb-K8P_PL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="576" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDE PRESENTATION END -->
+
+
+    <!-- TABS SECTION START -->
+    <div class="container py-5" id="tabs">
+        <div class="row py-5">
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">In-Ear</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">On-Ear</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Over-Ear</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="home">In-Ear</h1>
+                        <p> 
+                            An in-ear headphone is any headphone that is inserted into the ear. Which would also include earbuds of both the wireless and wired types. The earbud sits at the ear cannel, providing a more isolated listening experience. With the added bonus of noise cancellation, Earbuds are as popular, if not more, as over-the-ear headphones.
+                            This includes hearing aids and IEMs. IEM stands for In-Ear Monitors, which would include all the earbuds singers and people in entertainment and news broadcasters wear.
+                        </p>
+                
+                        <p>
+                            Most in-ear headphones come wireless with the help of Bluetooth to conceal the appearance of their headphones.
+                            It is most commonly used during exercise due to its light weight.
+                            Some popular brands of earbuds are AirPod, Raycon, Galaxy Buds, and many more, since companies also sell other types of headphones along with the earbuds. 
+                            
+                          
+                        </p>
+
+                        <p>
+                             Fun fact, earbuds is one of the many names called for a headphone. Some popular colors for the earbuds are more vibrant in color than the other headphone counterparts. 
+                          Includes: rose gold, royal blue, white, black, and gray.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">On-ear</h1>
+                            <p>
+                               On-ear headphones are overlooked in the headphone world. When looking for headphones, people usually look for Over-ear headphones. 
+                               There are some advantages of using an On-ear headphone. As the name states, the cups of the headphones sit on top of the ears of the user. 
+                               Depending on the user, it can be more comfortable to use a smaller earcup. It can relieve some pressures when using over the ear headphones.
+                               Due to it's smaller nature of their cups, they are also lighter than over the ear headphones. The added bonus of the smaller nature of the headphones lets the user be able to hear the ambient sounds. 
+                                Ambient sounds are importent in areas of heavy traffic and high population due to the need for alertness in the dense areas. 
+                            
+                            </p>
+                            <p>
+                              Due to the uptake of better noise cancelling from over the ear headphones, on-ear headphones are harder and harder to find. 
+                              On-ear headphones comes in both wireless and wired versions. Some popular brands include SkullCandy, Jabra, Grado, and Senheiser.
+                              The smaller ear cups all come down to preference since some people say it's more comfortable to wear on-ear, while most disagree. 
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Over-Ear</h1>
+                            <p>
+                              When thinking about a headphones, the first image that comes to mind is most likely an Over-ear headphones.
+                              With its powerful noise-cancelling quality, it's getting more and more popular by time. While wireless are most popular, many artist use Over-ear headphones when creating their songs. 
+                              The isolation of their song from the outside world is something they value greatly. As the name suggest, the headphone's cups sit over the user's ear creating a seal for the noise cancellation. 
+                        
+                            </p>
                     
+                            <p>
+                              The benefits of an Over-ear headphone is comfort and noise cancellation.  With comfort, since the cups of the headphones aren't directly on the ear, it takes off the pressure from the ear. 
+                              The noise cancellation comes in active and passive versions. Passive noise cancellation is used to isolate irregular and high-frequency sounds. 
+                              The benefits are that it's a phsical barrier that doesn't need power to function. Perfect for concerts and high volumes.
+                              Active, on the other hand, needs energy to work and targets ambient sounds which are the low to medium pitch range. 
+                              This is the noise cancelling people think of where they just turn it on and their cafe turns quiet. Perfect for airplane trip with the constant chatters and hum from the plane.
+                              The headphone comes in all different types of colors. Popular colors include: red, black, silver, white and blue. 
+                            </p>
+                    </div>
+                  </div>
                 </div>
-               <div class="col-sm-4 px-5 my-3">
-                   <img src="img/placeholder.png" class="img-fluid rounded-circle mb-3 feature">
-                   <h5>Over Ear Headphones</h5>
-               </div>
-               <div class="col-sm-4 px-5 my-3">
-                       <img src="img/placeholder.png" class="img-fluid rounded-circle mb-3 feature">
-                       <h5>On Ear Heaphones</h5>
-               </div>
-               <div class="col-sm-4 px-5 my-3">
-                   <img src="img/placeholder.png" class="img-fluid rounded-circle mb-3 feature">
-                   <h5>In Ear Headphones</h5>
-               </div>
-           </div>
-       </div>
+        </div>
+    </div>
+    <!-- TABS SECTION END -->
 
+    <!-- FOOTER START -->
+    <div class="bg-dark text-white py-5 footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm-3 pb-5">
+              <h5>Heading 1</h3>
+              <ul class="text-white-50">
+                  <li>Lorem ipsum dalor</li>
+                  <li>Site amet</li>
+                  <li>...</li>
+                  <li>...</li>
+              </ul>
+          </div>
+          <div class="col-sm-3 pb-5">
+              <h5>Heading 2</h3>
+                  <ul class="text-white-50">
+                      <li>Lorem ipsum dalor</li>
+                      <li>Site amet</li>
+                      <li>...</li>
+                      <li>...</li>
+                  </ul>
+          </div>
+          <div class="col-sm-3 pb-5">
+              <h5>Heading 3</h3>
+                  <ul class="text-white-50">
+                      <li>Lorem ipsum dalor</li>
+                      <li>Site amet</li>
+                      <li>...</li>
+                      <li>...</li>
+                  </ul>
+          </div>
+          <div class="col-sm-3 pb-5">
+              <h5>Heading 4</h3>
+                  <ul class="text-white-50">
+                      <li>Lorem ipsum dalor</li>
+                      <li>Site amet</li>
+                      <li>...</li>
+                      <li>...</li>
+                  </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <!-- BACK TO TOP START -->
+    <a href="#nav">
+        <i class="bi bi-arrow-up-circle-fill to-top text-black"></i>
+    </a>
+    <!-- BACK TO TOP START -->
+
+    <script src="" async defer></script>
+  </body>
+</html>
